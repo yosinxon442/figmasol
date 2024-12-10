@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "20-kopeek";
+    src: url(../assets/fonts/20-kopeek.otf);
+    font-weight: 500;
+ 
+}
+@font-face {
+    font-family: "20-kopeek";
+    src: url(../assets/fonts/20-kopeek-bold-italic.otf);
+}
+@font-face {
+    font-family: "20-kopeek";
+    src: url(../assets/fonts/20-kopeek-bold.otf);
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +27,265 @@
 .continer {
     max-width: 1300px;
     margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+
+
+.bg-img {
+    background-image: url(../assets/images/01\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.logo p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "20-kopeek";
+    font-weight: 400;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social .btn {
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    color: #181818;
+    
+}
+.btn a {
+    color: #FFFFFF;
+    font-family: "20-kopeek";
+    font-weight: 400;
+}
+
+.btn a:hover {
+    color: #181818;
+
+}
+.face {
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+
+.inst {
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+.section1 {
+    margin-top: 200px;
+
+}
+h1 {
+    color: #181818;
+    font-size: 55px;
+    font-family: "20-kopeek";
+    width: 50%;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.section1 b {
+    color: #181818;
+    font-size: 34px;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    margin-bottom: 20px;
+   
+
+}
+
+.two-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btns {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    color: #181818;
+    margin-top: 20px;
+}
+.btns:hover {
+    border: 1px solid #FFFFFF;
+    color: white;
+    background-color: transparent;
+}
+h2 {
+    color: #181818;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    font-size: 55px;
+    margin-top: 140px;
+
+}
+h3 {
+    color: #181818;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    font-size: 35px;
+     
+}
+.fgh b {
+    color: #181818;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    font-size: 35px;
+}
+.fgh button {
+    padding: 15px;
+    background-color: transparent;
+    color: #181818;
+    border: 1px solid #181818;
+    border-radius: 30px;
+    font-family: "20-kopeek";
+    font-weight: 500;
+}
+.www p {
+    color: #181818;
+    font-size: 18px;
+    font-family: "20-kopeek";
+    font-weight: 500;
+}
+
+.btnss {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 20px;
+    background-color: #2B59C3;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4 {
+    color: #181818;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    font-size: 35px;
+    
+}
+.btnsi {
+    padding: 30px 50px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    background-color: #2B59C3;
+    cursor: pointer;
+
+}
+h5 {
+    color: #181818;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    font-size: 35px;
+    width: 24%;
+    margin-bottom: 100px;
+}
+.section8 {
+    background-image: url(../assets/images/Rectangle\ 32.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 100px;
+}
+h6 {
+    color: #fff;
+    font-family: "20-kopeek";
+    font-weight: 500;
+    font-size: 55px;
+    margin-top: 140px;
+}
+@media (max-width: 990px) {
+    .footer__inner {
+        flex-direction: column;
+    }
+    .footer__inne2 {
+        flex-direction: column;
+        
+    }
+    .five {
+        flex-wrap: wrap;
+    }
+    .ggg {
+        gap: 50px;
+        justify-content: center;
+        padding: 30px;
+    }
+    .wwww img {
+        width: 200px;
+
+    }
+    .sex {
+        flex-direction: column;
+    }
+    .img {
+        width: 40%;
+    }
+    .p {
+        display: none;
+    }
+
+
+}
+@media (max-width: 768px) {
+    .bg-img {
+        background-image: url("../assets/images/Rectangle\ 52.png");
+    }
+    .sexx {
+        flex-direction: column;
+    }
 }
